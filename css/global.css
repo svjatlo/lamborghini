@@ -1,0 +1,48 @@
+html,
+body {
+	height: 100%;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+
+.main {
+	flex: 1 0 auto;
+}
+.footer {
+	flex: 0 0 auto;
+}
+
+.big-container{
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.container{
+	max-width: 930px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+body{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 120%;
+	color: #040404;
+}
+@font-face {
+	font-family: 'impact', sans-serif;
+	src: url(../fonts/impact.woff2);
+}
+
+.title{
+	font-weight: 300;
+	font-size: 32px;
+	line-height: 38px;
+	text-transform: uppercase;
+}
